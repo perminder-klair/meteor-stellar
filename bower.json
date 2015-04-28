@@ -1,0 +1,13 @@
+{
+  "name": "meteor-stellar",
+  "version": "0.1.0",
+  "homepage": "https://github.com/perminder-klair/meteor-stellar",
+  "authors": [
+    "perminder-klair <klair.di.sardari@gmail.com>"
+  ],
+  "description": "stellar.js for meteor.js",
+  "license": "MIT",
+  "dependencies": {
+    "stellar.js": "~0.6.2"
+  }
+}
