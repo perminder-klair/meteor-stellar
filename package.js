@@ -1,3 +1,8 @@
+// package metadata file for Meteor.js
+
+/* jshint strict:false */
+/* global Package:true */
+
 Package.describe({
   name: 'pinku1:stellar',
   summary: 'Stellar.js - Parallax scrolling made easy',
@@ -10,6 +15,14 @@ Package.describe({
 });
 
 Package.on_use(function (api) {
-  api.use('jquery', 'client');
-  api.add_files(['bower_components/stellar.js/jquery.stellar.js'], 'client');
+    api.versionsFrom('METEOR@1.0');
+    
+    api.use('jquery', 'client');
+    
+
+    api.export('Stellar', 'client');
+    
+    api.add_files([
+        'bower_components/stellar.js/jquery.stellar.js'
+    ], 'client');
 });
