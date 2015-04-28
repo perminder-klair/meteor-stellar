@@ -1,6 +1,6 @@
 Package.describe({
   name: 'pinku1:stellar',
-  summary: 'Stellar.js - Parallax scrolling made easy'
+  summary: 'Stellar.js - Parallax scrolling made easy',
   version: '0.1.0',
   // URL to the Git repository containing the source code for this package.
   git: 'https://github.com/perminder-klair/meteor-stellar',
